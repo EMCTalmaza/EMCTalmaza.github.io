@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>اجتماع التلمذة كنيسة المسيح محرم بك</title>
     <style>
         body {
-            background-image: linear-gradient(to bottom, #f2f2f2, #e5e5e5);
             font-family: Arial, sans-serif;
             text-align: center;
+            max-width: 600px; /* set maximum width for content */
+            margin: 0 auto; /* center content horizontally */
         }
         .button {
             background-color: #4CAF50;
             color: #fff;
-            padding: 10px 20px;
+            padding: 1em; /* use relative unit for padding */
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -19,10 +22,27 @@
         .button:hover {
             background-color: #3e8e41;
         }
+        /* add media queries for different screen sizes */
+        @media only screen and (max-width: 768px) {
+            body {
+                font-size: 24px; /* reduce font size for smaller screens */
+            }
+            .button {
+                padding: 0.5em; /* reduce padding for smaller screens */
+            }
+        }
+        @media only screen and (max-width: 480px) {
+            body {
+                font-size: 18px; /* reduce font size for even smaller screens */
+            }
+            .button {
+                padding: 0.2em; /* reduce padding for even smaller screens */
+            }
+        }
     </style>
 </head>
 <body>
-    <h1 style="font-size: 36px; margin-top: 100px;">اجتماع التلمذة كنيسة المسيح محرم بك</h1>
+    <h1 style="font-size: 3rem; margin-top: 2em;">اجتماع التلمذة كنيسة المسيح محرم بك</h1>
     <button class="button" onclick="location.href='https://www.youtube.com/playlist?list=PLEClGdsSlj_VR0L-GrCWN9u_jsrIPZT1p'">الانضباطات الروحية</button>
     <button class="button" onclick="location.href='https://www.youtube.com/playlist?list=PLEClGdsSlj_WDcWjslerQMMaP4UkFIsSv'">عش</button>
     <button class="button" onclick="location.href='actualmountain.html'">الموعظة على الجبل</button>
