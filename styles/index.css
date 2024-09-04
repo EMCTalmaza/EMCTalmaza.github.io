@@ -15,7 +15,7 @@ body {
     font-family: Arial, sans-serif;
     background-image: linear-gradient(to bottom, var(--background-light), var(--background-dark));
     text-align: center;
-    max-width: 600px; /* set maximum width for content */
+    max-width: 600px; /* set maximum width */
     margin: 0 auto; /* center content horizontally */
 }
 
