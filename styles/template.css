@@ -22,7 +22,7 @@ body {
 
 /* Styling the image to be responsive */
 .responsive-image {
-    width: 100%;
+    width: 80%;
     height: auto; /* Maintains aspect ratio */
     max-width: 600px; /* Maximum width to fit within the page's content width */
     border-radius: 10px; /* Optional: rounded corners */
