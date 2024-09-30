@@ -9,7 +9,7 @@
     --padding-large: 1.5em; /* Increased padding for larger buttons */
     --padding-medium: 1em; /* Increased padding for medium screen */
     --padding-small: 0.75em; /* Increased padding for small screen */
-    --button-font-size-large: 2rem; /* Added button font-size variable */
+    --button-font-size-large: 1.75rem; /* Added button font-size variable */
     --button-font-size-medium: 1.5rem;
     --button-font-size-small: 1rem;
     --button-margin: 1em;
