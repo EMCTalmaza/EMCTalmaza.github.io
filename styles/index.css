@@ -31,12 +31,12 @@ h1 {
 .button {
     background-color: var(--primary-color);
     color: #fff;
-    padding: var(--padding-large); /* Larger padding */
-    font-size: var(--button-font-size-large); /* Increased button text size */
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    padding: var(--padding-large); /* Adjust padding for medium screen */
+    font-size: var(--button-font-size-large); /* Adjust text size for medium screen */
     margin-bottom: var(--button-margin);
 }
 
