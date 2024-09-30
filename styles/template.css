@@ -6,6 +6,7 @@
     --font-size-large: 3rem;
     --font-size-medium: 24px;
     --font-size-small: 18px;
+    --font-size-button: 2vw; /* Button text will scale based on viewport width */
     --padding-large: 1em;
     --padding-medium: 0.5em;
     --padding-small: 0.2em;
@@ -28,7 +29,7 @@ body {
     border-radius: 10px; /* Optional: rounded corners */
 }
 
-/* Button styling consistent with the previous page */
+/* Button styling */
 .button {
     background-color: var(--primary-color);
     color: #fff;
@@ -40,6 +41,7 @@ body {
     margin-top: 1.5em; /* Add space between the image and buttons */
     width: 80%;
     max-width: 500px;
+    font-size: var(--font-size-button); /* Make the font size responsive */
 }
 
 .button:hover {
@@ -52,6 +54,7 @@ body {
         font-size: var(--font-size-medium);
     }
     .button {
+        font-size: 4vw; /* Increase font size on smaller screens */
         padding: var(--padding-medium);
     }
 }
@@ -61,6 +64,7 @@ body {
         font-size: var(--font-size-small);
     }
     .button {
+        font-size: 5vw; /* Further increase font size on very small screens */
         padding: var(--padding-small);
     }
 }
