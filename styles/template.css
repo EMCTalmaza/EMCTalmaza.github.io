@@ -34,6 +34,7 @@ body {
     background-color: var(--primary-color);
     color: #fff;
     padding: var(--padding-large);
+    margin: var(--padding-large);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -56,6 +57,7 @@ body {
     .button {
         font-size: 4vw; /* Increase font size on smaller screens */
         padding: var(--padding-medium);
+        margin: var(--padding-medium);
     }
 }
 
@@ -66,5 +68,6 @@ body {
     .button {
         font-size: 5vw; /* Further increase font size on very small screens */
         padding: var(--padding-small);
+        margin: var(--padding-small);
     }
 }
